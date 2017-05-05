@@ -35,7 +35,6 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'NAME_YOUR_APP',
       template: 'client/index.html',
     }),
     new UglifyJSPlugin({
